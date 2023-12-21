@@ -1,0 +1,114 @@
+body {
+    font-family: 'Times', sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    /* 给所有文本设置默认颜色 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+    /* 为所有标题设置统一颜色 */
+}
+
+
+
+.nav a {
+    color: #0066cc;
+    /* 链接颜色 */
+    text-decoration: none;
+    /* 移除下划线 */
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    /* 悬停时显示下划线 */
+}
+
+.intro p {
+    text-align: left;
+    margin-left: 20%;
+
+    padding: auto;
+    /* 如果所有文本都是左对齐的，这一行可以省略，因为这是默认值 */
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* 以下是示例样式，你可以根据需要添加更多样式 */
+.subject,
+.nav,
+.intro,
+.text-table,
+.footer {
+    margin: 20px;
+    /* 添加一些外边距 */
+    padding: 10px;
+    /* 添加一些内边距 */
+}
+
+#head-img {
+    width: 100%;
+}
+
+img {
+    width: 80%;
+    /* 让图像适应其容器的宽度 */
+    height: auto;
+    /* 保持图像的纵横比 */
+}
+
+.footer dl dt {
+    font-weight: bold;
+    /* 为定义列表的标题设置粗体 */
+}
+
+.footer dl dd {
+    margin: 20;
+    /* 移除定义列表描述的默认外边距 */
+
+    /* 移除定义列表描述的默认内边距 */
+}
+
+.part2 h1 {
+    text-align: center;
+}
+
+.memo {
+    font-style: italic;
+    font-size: 20px;
+}
+
+ul {
+    width: 80%;
+    /* 或者你想要的任何宽度 */
+    margin-left: 15%;
+    margin-right: auto;
+    list-style-type: none;
+    /* 移除默认的列表符号 */
+    padding-left: 0;
+    /* 移除默认的填充 */
+    font-size: 18px;
+}
+
+.footer {
+    /* 或者你想要的任何宽度 */
+    padding: -15%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+li::before {
+    content: "— ";
+    /* 添加破折号 */
+    padding-right: 5px;
+
+    /* 在破折号和文本之间添加一些间隔 */
+}
