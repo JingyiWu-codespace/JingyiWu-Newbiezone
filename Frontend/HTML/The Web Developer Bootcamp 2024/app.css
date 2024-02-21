@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: orange underline wavy;
+    letter-spacing: 15px;
+    font-size: 100px;
+    font-family: monospace, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2em;
+}
